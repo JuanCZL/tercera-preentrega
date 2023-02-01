@@ -1,0 +1,21 @@
+.carrot, .matilda, .cheese, .torre, .milhojas, .galak, .golfeados, .firulais{
+    width: 249px;
+    height: 249px;
+    border: 5px solid  #94D4D6;
+    border-radius: 5%;
+
+    @include mobile{
+        width: 320px;
+        height: 320px;
+    }
+    
+    @include tablet{
+        width: 380px;
+        height: 380px;
+    }
+    
+    @include desktop{
+        width: 380px;
+        height: 380px;
+    }
+}

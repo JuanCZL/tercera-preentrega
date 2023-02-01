@@ -1,0 +1,58 @@
+.welcome, .nosotros{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: salmon;
+    margin-top: 10px;
+}
+
+.fiesta{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: salmon;
+    margin-top: 15px;
+}
+
+.primavera, .unica, .capas{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: salmon;
+    margin-top: 10px;
+
+    @include tablet{
+        margin-top: 50px;
+    }
+
+    @include desktop{
+        margin-top: 70px;
+    }
+}
+
+.nombre{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: salmon;
+    margin-top: 10px;
+}
+
+h1{
+    color: salmon;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

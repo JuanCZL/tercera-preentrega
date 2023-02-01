@@ -1,0 +1,122 @@
+@import "generales";
+@import "index";
+@import "titulos";
+@import "parrafos";
+@import "medias";
+@import "fotos";
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+.logotipo{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    padding: 15px;
+}
+
+.inicio{
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #202E53;
+    color: salmon;
+}
+
+.varios, .comprar, .firus{
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    padding: 15px;
+}
+
+.tamaños{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: salmon;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+@media (min-width:500px){
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inicio, .varios, .comprar, .firus{
+    display: grid;
+    justify-items: center;
+    gap: 13px;
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+@media (min-width:780px){
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comprar, .inicio{
+    display: grid;
+    justify-items: center;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tercer-parrafo{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: salmon;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.nombre{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    color: salmon;
+    margin-top: 10px;
+}
+
+}
+
+@media (min-width:1024px){
+
+}
+
